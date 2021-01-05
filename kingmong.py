@@ -9,8 +9,6 @@ def loaddata():
     db = client.test_database
     posts = collection = db.data
     pprint(posts.find_one())
-
-    
     return None
 
 
